@@ -1,0 +1,272 @@
+package org.apache.jsp;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class Form1_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html;charset=UTF-8");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("<html>\n");
+      out.write("    <head>\n");
+      out.write("        \n");
+      out.write("         <LINK REL=\"stylesheet\" HREF=\"chd.css\" TYPE=\"text/css\">\n");
+      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
+      out.write("        <title>Form1</title>\n");
+      out.write("        <script>\n");
+      out.write("        function fn1()\n");
+      out.write("            {\n");
+      out.write("                document.getElementById(\"foodmenu\").style.display=\"block\";\n");
+      out.write("            }\n");
+      out.write("            function fn2()\n");
+      out.write("            {\n");
+      out.write("                 document.getElementById(\"foodmenu\").style.display=\"none\";\n");
+      out.write("             \n");
+      out.write("            }\n");
+      out.write("             function fn3()\n");
+      out.write("            {\n");
+      out.write("                document.getElementById(\"logindiv\").style.display=\"block\";\n");
+      out.write("                document.getElementById(\"main\").style.opacity=\"0.5\";\n");
+      out.write("            }\n");
+      out.write("            function fn4()\n");
+      out.write("            {\n");
+      out.write("              document.getElementById(\"logindiv\").style.display=\"none\";\n");
+      out.write("              document.getElementById(\"main\").style.opacity=\"1\";\n");
+      out.write("            }\n");
+      out.write("             function fn5()\n");
+      out.write("            {\n");
+      out.write("                document.getElementById(\"logindiv\").style.display=\"none\";\n");
+      out.write("                document.getElementById(\"logindiv1\").style.display=\"block\";\n");
+      out.write("              document.getElementById(\"main\").style.opacity=\"0.5\";\n");
+      out.write(" \n");
+      out.write("            }\n");
+      out.write("            function fn6()\n");
+      out.write("            {\n");
+      out.write("                 document.getElementById(\"logindiv1\").style.display=\"none\";\n");
+      out.write("              document.getElementById(\"main\").style.opacity=\"1\";\n");
+      out.write("            }\n");
+      out.write("              function fn7()\n");
+      out.write("            {\n");
+      out.write("                 document.getElementById(\"logindiv1\").style.display=\"none\";\n");
+      out.write("                document.getElementById(\"logindiv\").style.display=\"block\";\n");
+      out.write("              document.getElementById(\"main\").style.opacity=\"0.5\";\n");
+      out.write("            }\n");
+      out.write("             function fn8()\n");
+      out.write("            {\n");
+      out.write("                document.getElementById(\"lb\").style.background=\"white\";\n");
+      out.write("                document.getElementById(\"lb\").style.color=\"black\";\n");
+      out.write("            }\n");
+      out.write("             function fn9()\n");
+      out.write("            {\n");
+      out.write("                document.getElementById(\"lb\").style.background=\"black\";\n");
+      out.write("             document.getElementById(\"lb\").style.color=\"white\";\n");
+      out.write("            }\n");
+      out.write("              function fn10()\n");
+      out.write("            {\n");
+      out.write("                document.getElementById(\"lb1\").style.background=\"white\";\n");
+      out.write("                document.getElementById(\"lb1\").style.color=\"black\";\n");
+      out.write("            }\n");
+      out.write("            function fn11()\n");
+      out.write("            {\n");
+      out.write("                document.getElementById(\"lb1\").style.background=\"black\";\n");
+      out.write("             document.getElementById(\"lb1\").style.color=\"white\";\n");
+      out.write("             }\n");
+      out.write("             function fn12()\n");
+      out.write("            {\n");
+      out.write("                document.getElementById(\"lb3\").style.background=\"white\";\n");
+      out.write("                document.getElementById(\"lb3\").style.color=\"black\";\n");
+      out.write("            }\n");
+      out.write("            function fn13()\n");
+      out.write("            {\n");
+      out.write("                document.getElementById(\"lb3\").style.background=\"black\";\n");
+      out.write("             document.getElementById(\"lb3\").style.color=\"white\";\n");
+      out.write("             }\n");
+      out.write("          function fn14()\n");
+      out.write("            {\n");
+      out.write("                document.getElementById(\"lb4\").style.background=\"white\";\n");
+      out.write("                document.getElementById(\"lb4\").style.color=\"black\";\n");
+      out.write("            }\n");
+      out.write("            function fn15()\n");
+      out.write("            {\n");
+      out.write("                document.getElementById(\"lb4\").style.background=\"black\";\n");
+      out.write("             document.getElementById(\"lb4\").style.color=\"white\";\n");
+      out.write("             }\n");
+      out.write("               function fn16()\n");
+      out.write("         {\n");
+      out.write("               document.getElementById(\"logindiv\").style.display=\"none\";\n");
+      out.write("                document.getElementById(\"logindiv2\").style.display=\"block\";\n");
+      out.write("              document.getElementById(\"main\").style.opacity=\"0.5\";\n");
+      out.write("         }\n");
+      out.write("          function fn17()\n");
+      out.write("         {\n");
+      out.write("             document.getElementById(\"logindiv2\").style.display=\"none\";\n");
+      out.write("             document.getElementById(\"main\").style.opacity=\"1\";\n");
+      out.write("         }\n");
+      out.write("          function fn18()\n");
+      out.write("         {\n");
+      out.write("              document.getElementById(\"logindiv2\").style.display=\"none\";\n");
+      out.write("                document.getElementById(\"logindiv\").style.display=\"block\";\n");
+      out.write("              document.getElementById(\"main\").style.opacity=\"0.5\";\n");
+      out.write("         }\n");
+      out.write("         function fn19()\n");
+      out.write("         {\n");
+      out.write("              document.getElementById(\"lb5\").style.background=\"white\";\n");
+      out.write("                document.getElementById(\"lb5\").style.color=\"black\";\n");
+      out.write("         }\n");
+      out.write("         function fn20()\n");
+      out.write("         {\n");
+      out.write("              document.getElementById(\"lb5\").style.background=\"black\";\n");
+      out.write("             document.getElementById(\"lb5\").style.color=\"white\";\n");
+      out.write("         }\n");
+      out.write("         function fn21()\n");
+      out.write("         {\n");
+      out.write("           document.getElementById(\"lb6\").style.background=\"white\";\n");
+      out.write("                document.getElementById(\"lb6\").style.color=\"black\";\n");
+      out.write("         }\n");
+      out.write("         function fn22()\n");
+      out.write("         {\n");
+      out.write("              document.getElementById(\"lb6\").style.background=\"black\";\n");
+      out.write("             document.getElementById(\"lb6\").style.color=\"white\";\n");
+      out.write("         }  \n");
+      out.write("          function fn23()\n");
+      out.write("         {\n");
+      out.write("             document.getElementById(\"regsucc\").style.display=\"block\";\n");
+      out.write("             document.getElementById(\"main\").style.opacity=\"0.5\";\n");
+      out.write("         }\n");
+      out.write("          function fn24()\n");
+      out.write("         {\n");
+      out.write("            document.getElementById(\"regsucc\").style.display=\"none\";\n");
+      out.write("             document.getElementById(\"main\").style.opacity=\"1\"; \n");
+      out.write("         }\n");
+      out.write("         function fn25()\n");
+      out.write("         {\n");
+      out.write("             document.getElementById(\"hotelmenu\").style.display=\"block\";\n");
+      out.write("         }\n");
+      out.write("          function fn26()\n");
+      out.write("         {\n");
+      out.write("             document.getElementById(\"hotelmenu\").style.display=\"none\";\n");
+      out.write("         }\n");
+      out.write("         function fn27()\n");
+      out.write("         {\n");
+      out.write("             \n");
+      out.write("         }\n");
+      out.write("            </script>\n");
+      out.write("    </head>\n");
+      out.write("    <body>\n");
+      out.write("        \n");
+      out.write("        <div id=\"main\">\n");
+      out.write("            <div id=\"header\">\n");
+      out.write("            \n");
+      out.write("            \n");
+      out.write("        </div>        \n");
+      out.write("\n");
+      out.write("        <div id=\"div\">\n");
+      out.write("           \n");
+      out.write("           <div id=\"logoo\">\n");
+      out.write("               <div id=\"logo\"><br>\n");
+      out.write("                <img src=\"logo.jpg\" height=\"120\" width=\"140\">\n");
+      out.write("            </div>\n");
+      out.write("               <div id=\"chd\">\n");
+      out.write("                   ");
+      out.write("<img src=\"topcontact.jpg\" height=\"160\" width=\"780\">\n");
+      out.write("            </div>\n");
+      out.write("            <div id=\"chdt\"><br>\n");
+      out.write("                5 Star Hotels\n");
+      out.write("            </div>\n");
+      out.write("          \n");
+      out.write("             \n");
+      out.write("              \n");
+      out.write("           </div>\n");
+      out.write("            <div id=\"e\"></div>\n");
+      out.write("            <div id=\"menu\">\n");
+      out.write("                \n");
+      out.write("                <div id=\"home\" class=\"two\"><a href=\"FrontPage.jsp\" onmouseover=\"fn2(),fn26()\">HOME</a></div>\n");
+      out.write("                <div id=\"history\" class=\"two\"><a href=\"history.jsp\" onmouseover=\"fn2(),fn26()\">HISTORY</a></div>\n");
+      out.write("                <div id=\"hotel\" class=\"two\"><a href=\"hotels.jsp\" onmouseover=\"fn2(),fn25()\">HOTELS</a></div>\n");
+      out.write("                <div id=\"food\" class=\"two\"  ><a href=\"food.jsp\" onmouseover=\"fn1(),fn26()\">FOOD</a></div>\n");
+      out.write("                <div id=\"tourist\" class=\"two\">\n");
+      out.write("                    <form action=\"TouristPlacess.jsp\" method=\"post\" enctype=\"multipart/form-data\">\n");
+      out.write("                        <input type=\"submit\" id=\"night\" value=\" TOURIST PLACES \"\n");
+      out.write("                               style=\"background-color: black;color: white;font-size: 15px;\n");
+      out.write("                               font-family: sans-serif;border-color: black;border-radius: 5px;\" onmouseover=\"fn2(),fn26()\">\n");
+      out.write("                    </form>\n");
+      out.write("                    </div>\n");
+      out.write("                <div id=\"club\" class=\"two\">\n");
+      out.write("                    <form action=\"club.jsp\" method=\"post\" enctype=\"multipart/form-data\">\n");
+      out.write("                        <input type=\"submit\" id=\"night\" value=\" NIGHTLIFE \"\n");
+      out.write("                               style=\"background-color: black;color: white;font-size: 15px;\n");
+      out.write("                               font-family: sans-serif;border-color: black;border-radius: 5px;\" onmouseover=\"fn2()\">\n");
+      out.write("                    </form>\n");
+      out.write("                </div>\n");
+      out.write("            </div>\n");
+      out.write("            <BR>\n");
+      out.write("            <BR>\n");
+      out.write("            <div id=\"Food\">\n");
+      out.write("                <fieldset >\n");
+      out.write("                <form>\n");
+      out.write("                    <pre>     \n");
+      out.write("          Hotel Category :    <input type=\"text\"  name= \"Hotel_Category\"> <br> \n");
+      out.write("          Hotel Name :        <input type=\"text\" name=\"Hotel_Name\"><br>\n");
+      out.write("          Hotel Address :     <input type=\"text\" name=\"Hotel_Address\"><br>\n");
+      out.write("          Hotel Description : <input type=\"text\" name=\"Hotel_Description\"><br>\n");
+      out.write("          Image :             <input type=\"file\" name=\"Image\">\n");
+      out.write("                              <input  type = \"submit\" value = \"SUBMIT\"> \n");
+      out.write("                    </pre>\n");
+      out.write("                </form>\n");
+      out.write("            </fieldset>\n");
+      out.write("            </div>\n");
+      out.write("            </body>\n");
+      out.write("</html>\n");
+      out.write("            ");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}
